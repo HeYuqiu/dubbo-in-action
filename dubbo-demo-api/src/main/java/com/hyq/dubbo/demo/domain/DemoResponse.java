@@ -6,7 +6,7 @@ import java.io.Serializable;
  * Created by heyuqiu on 2019/1/15.
  */
 public class DemoResponse implements Serializable {
-    // dubbo基于java的序列化
+    // dubbo基于hession的二进制序列化
     private static final long serialVersionUID = 9095928069605270963L;
     private int resultCode;
     private String resultMsg;
